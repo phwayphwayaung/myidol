@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap');
+body{
+  margin: 0;
+  background-color: #eee;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  height: 100vh;
+  background-color: #66bfbb;
+  /* background-color: #FFF; */
+  display: flex;
+  justify-content: center;
+  box-shadow: 30px 0 20px rgba(0, 0, 0, 0.2), -30px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{ 
+  width: 600px;
+  height: 100vh;
+  background-image: url(images/profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  background: #3dcbff;
+  background-image: -webkit-linear-gradient(top, #3dcbff, #e75eff);
+  background-image: -moz-linear-gradient(top, #3dcbff, #e75eff);
+  background-image: -ms-linear-gradient(top, #3dcbff, #e75eff);
+  background-image: -o-linear-gradient(top, #3dcbff, #e75eff);
+  background-image: linear-gradient(to bottom, #3dcbff, #e75eff);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 8px 4px #595659;
+  -moz-box-shadow: 5px 8px 4px #595659;
+  box-shadow: 5px 8px 4px #595659;
+  font-family: Arial;
+  color: #525f52;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.btn:hover {
+  background: #e8b0a9;
+  background-image: -webkit-linear-gradient(top, #e8b0a9, #37d6b6);
+  background-image: -moz-linear-gradient(top, #e8b0a9, #37d6b6);
+  background-image: -ms-linear-gradient(top, #e8b0a9, #37d6b6);
+  background-image: -o-linear-gradient(top, #e8b0a9, #37d6b6);
+  background-image: linear-gradient(to bottom, #e8b0a9, #37d6b6);
+  text-decoration: none;
+}
+
+.title1 {
+  font-size: 5.625rem;
+  width: 200px;
+  text-align: center;
+  text-shadow: -4px -3px 3px grey;
+  font-family: 'Sacramento', cursive;
+  color: #080808;
+  margin-bottom: 0;
+}
+
+.watermark {
+  color: silver;
+  text-align: center;
+} 
+
+.bio{
+  text-align: center;
+}
+
+.img1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img3{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img4{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img5{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img6{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img7{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img8{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img9{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bio-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.img1-description, .img2-description, .img3-description, .img4-description, .img7-description {
+  line-height: 4;
+}
+
+.img5-description,.img6-description{
+  line-height: 5;
+}
+
+.img8-description,.img9-description{
+  line-height: 5;
+}
+
+.bottom-container{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #66bfbb;
+  padding: 30px 0 20px;
+}
+
+.title2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  background-color: #66bfbb;
+  padding: 20px 0 30px;
+  font-size: 4rem;
+}
+
+.end{
+  font-size: 2rem;
+  font-family: 'Sacramento', cursive;
+  margin: 30px 0 0;
+}
+
+span{
+  padding-left:100px ;
+}
